@@ -14,6 +14,8 @@ export function setAuthToken(token) {
   }
 }
 
+// cambio para probar gh action
+
 export async function verifyToken() {
   try {
     await API.get('/auth/verify');
