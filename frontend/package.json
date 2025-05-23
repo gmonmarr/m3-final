@@ -11,9 +11,14 @@
     "test": "jest"
   },
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
     "testEnvironment": "jsdom",
-    "moduleFileExtensions": ["js", "jsx"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest"
     }
@@ -37,7 +42,8 @@
     "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react-swc": "^3.9.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "@vitejs/plugin-react-swc": "^3.10.0",
     "babel-jest": "^29.7.0",
     "eslint": "^9.27.0",
     "eslint-plugin-react-hooks": "^5.2.0",
