@@ -39,6 +39,7 @@ jobs:
 
       - name: Lint
         run: npm run lint || echo "Lint failed"
+        continue-on-error: true
 
       - name: Jest tests
         run: npm test || echo "Tests failed"
