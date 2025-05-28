@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // eslint.config.mjs
 
 import js from "@eslint/js";
