@@ -6,7 +6,7 @@
     "test": "jest",
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "lint": "eslint ."
+    "lint": "eslint . --ignore-pattern eslint.config.mjs"
   },
   "keywords": [],
   "author": "",

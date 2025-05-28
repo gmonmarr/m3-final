@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 // eslint.config.mjs
-
 import js from "@eslint/js";
 import globals from "globals";
 import { defineConfig } from "eslint/config";
@@ -22,7 +21,6 @@ export default defineConfig([
     },
     rules: {
       ...js.configs.recommended.rules,
-      // 👇 Allow unused variables that start with '_'
       "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     },
   },

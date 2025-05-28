@@ -30,7 +30,6 @@ jobs:
 
       - name: Lint
         run: npm run lint || echo "Lint failed"
-        continue-on-error: true
 
       - name: Run unit tests
         run: npm test
@@ -44,4 +43,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_TOKEN }}
           app_location: "frontend"
           output_location: "dist"
-          deployment_action: "upload"
+          action: "upload"

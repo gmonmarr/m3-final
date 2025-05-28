@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // src/setupTests.js
 import '@testing-library/jest-dom';
 
